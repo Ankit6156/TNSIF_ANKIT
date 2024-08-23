@@ -13,10 +13,10 @@ public class Final_variable {
 	final static int Z = 10;
 
 	// instatnce method
-	void change() {
-		x = 30; // final variables can't be reassigned
-		Y = 200; // final static variables can't be reassigned
-	}
+//	void change() {
+//		x = 30; // final variables can't be reassigned
+//		Y = 200; // final static variables can't be reassigned
+//	}
 
 	@Override
 	public String toString() {
@@ -26,7 +26,7 @@ public class Final_variable {
 	// Declare a static block to initialize the final static variable.
 	static {
 		Y = 20;
-		Z = 100; // Once intialized can't be reassigned
+//		Z = 100; // Once intialized can't be reassigned
 		System.out.println("Value of Y: " + Y);
 	}
 
