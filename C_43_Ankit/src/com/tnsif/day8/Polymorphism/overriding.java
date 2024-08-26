@@ -15,8 +15,8 @@ class Child extends Parent {
 
 public class overriding {
     public static void main(String[] args) {
-        Parent obj1 = new Parent();
-        obj1.show(); // Calls Parent's show()
+        Parent obj1 = new Parent ();
+        obj1.show();// Calls Parent's show()
 
         Parent obj2 = new Child();
         obj2.show(); // Calls Child's show()
