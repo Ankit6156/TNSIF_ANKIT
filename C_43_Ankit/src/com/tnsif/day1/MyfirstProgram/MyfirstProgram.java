@@ -1,4 +1,4 @@
-package com.tnsif.day.MyfirstProgram;
+package com.tnsif.day1.MyfirstProgram;
 import java.util.*;
 public class MyfirstProgram {
 	public static void main(String[] args) {
