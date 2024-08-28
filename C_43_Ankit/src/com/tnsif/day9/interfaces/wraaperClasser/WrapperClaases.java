@@ -23,8 +23,7 @@ public class WrapperClaases {
 		System.out.println(c);
 		// Autoboxing - Converting Implicitly
 		int a=100;
-		Integer i1=a;
-		System.out.println(i1);
+//		Integer /	System.out.println(i1);
 		
 	}
 

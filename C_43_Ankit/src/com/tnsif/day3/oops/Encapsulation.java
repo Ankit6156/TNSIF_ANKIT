@@ -2,7 +2,7 @@ package com.tnsif.day3.oops;
 
 public class Encapsulation {
 	String name; //data members and instance variable
-	int age; 
+	 int age; 
 	String dept;
 	public String getName() {
 		return name;
